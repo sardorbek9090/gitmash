@@ -1,0 +1,35 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container1{
+    padding: 20px;
+    background-color: pink;
+    flex: 1;
+    
+}
+.container2{
+    padding: 20px;
+    background-color: green;
+    flex: 3  ;
+    margin: 0px 25px;
+}
+.container3{
+    padding: 20px;
+    background-color: blue;
+    flex: 1;
+}
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        grid-gap: 3px;
+    }
+
+.kitob{
+    width: 100px;
+
+}
